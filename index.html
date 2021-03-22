@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма регистрации</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="mbd/style/bootstrap.min.css">
+    <link rel="stylesheet" href="mbd/style/mdb.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="form-header">
+            <h1>Регистрация</h1>
+        </div>
+        
+    <form action="">
+
+        <div class="inputs-block">
+            <div class="inputs">
+                <label for="name">ИМЯ</label>
+                <input type="text" placeholder="Ваше Имя">        
+            </div>
+            <div class="inputs">
+                <label for="name">ФАМИЛИЯ</label>
+                <input type="text" placeholder="Ваша фамилия">        
+            </div>
+        </div>
+
+        <div class="inputs-block">
+            <div class="inputs">
+                <label for="name">ТEЛЕФОН</label>
+                <input type="text" placeholder="+380 -- --">        
+            </div>
+            <div class="inputs">
+                <label for="name">E-MAIL</label>
+                <input type="text" placeholder="example@mail.com">        
+            </div>
+        </div>
+
+        <div class="inputs-block">
+            <div class="inputs">
+                <label for="name">ГОРОД</label>
+                <select name="name" id="#">
+                    <option value="value 1">ДНЕПР</option>
+                    <option value="value 2" selected>Выберете ваш город</option>
+                    <option value="value 3">КИЕВ</option>
+                </select>      
+            </div>
+            <div class="inputs">
+                <label for="name">КОМПАНИЯ</label>
+                <input type="text" placeholder="Название компани">        
+            </div>
+        </div>
+
+        <div class="inputs-block">
+            <div class="inputs">
+                <label for="name">ПAРОЛЬ</label>
+                <input type="text" placeholder="Не меньше 8 символов">        
+            </div>
+            <div class="inputs">
+                <label for="name">ПОВТОРИТЕ ПАРОЛЬ</label>
+                <input type="text" placeholder="Повторите пароль">        
+            </div>
+        </div>
+
+        <div class="inputs-cheked">
+            <li>
+                <input type="checkbox">
+                <label class="label-text" for="info">Я даю согласия на обработку личных данных, согласно <span>Полититке конфидициальности</span></label>
+            </li>
+        </div>
+
+        <div class="button-form">
+            <button type="button" class="btn btn-danger">Зарегистрироваться</button>
+        </div>
+        
+        
+    </form>
+    
+
+    </div>
+
+    <script src="mbd/js/jquery.min.js"></script>
+    <script src="mbd/js/bootstrap.min.js"></script>
+    <script src="mbd/js/mdb.min.js"></script>
+    <script src="mbd/js/popper.min.js"></script>
+</body>
+</html>
